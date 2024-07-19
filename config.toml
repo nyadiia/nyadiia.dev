@@ -140,7 +140,7 @@ menu = [
     { name = "tags", url = "tags", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
 
-    { name = "resume", url = "resume", trailing_slash = true },
+    { name = "resume", url = "NadiaResume.pdf", trailing_slash = false },
     { name = "about", url = "about", trailing_slash = true },
     # { name = "archive", url = "archive", trailing_slash = true },
 ]
@@ -168,7 +168,7 @@ socials = [
 # Extra menu to show on the footer, below socials section.
 footer_menu = [
     { url = "about", name = "about", trailing_slash = true },
-    { url = "resume", name = "resume", trailing_slash = true },
+    { url = "resume", name = "NadiaResume.pdf", trailing_slash = true },
     # {url = "privacy", name = "privacy", trailing_slash = true},
     { url = "sitemap.xml", name = "sitemap", trailing_slash = false },
 ]
